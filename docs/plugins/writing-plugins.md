@@ -16,7 +16,7 @@ when your application boots.
 use Sassnowski\Venture\Plugin\Plugin;
 use Sassnowski\Venture\Plugin\PluginContext;
 
-class MyFirstPlugin implements PluginInterface
+class MyFirstPlugin implements Plugin
 {
     public function install(PluginContext $context): void
     {
