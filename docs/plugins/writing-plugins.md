@@ -149,7 +149,7 @@ fully qualified name of your plugin class. This should be done inside the
 
 use App\Plugins\MyPlugin;
 use Illuminate\Support\ServiceProvider;
-use Sassnowski\Venture;
+use Sassnowski\Venture\Venture;
 
 class AppServiceProvider extends ServiceProvider
 {
